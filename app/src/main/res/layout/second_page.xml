@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/layout_bg">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/edt_calendar"
+        android:background="@drawable/edit_text_bg"
+        android:drawableStart="@drawable/icons8_calendar_32"
+        android:drawablePadding="5dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:editable="false"
+        android:textColor="#19942a"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/edt_subject"
+        android:background="@drawable/edit_text_bg"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_mode_edit_black_24dp"
+        android:drawablePadding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#19942a"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/edt_matter"
+        android:background="@drawable/edit_text_bg"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:gravity="start"
+        android:textColor="#19942a"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/btn_save"
+        android:text="Save"
+        android:textColor="#ffffff"
+        android:background="#498979"
+        android:textAllCaps="false"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv"
+        android:layout_marginTop="5dp">
+    </ListView>
+
+
+</LinearLayout>
